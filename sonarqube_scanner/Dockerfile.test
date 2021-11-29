@@ -1,0 +1,11 @@
+# syntax=docker/dockerfile:1
+
+FROM sonarqube
+COPY ./sonar-scanner-4.0.0.1744 /opt/sonar-scanner
+ENV PATH=/opt/sonarqube/bin:$PATH
+ENV PATH=/opt/sonar-scanner/bin:$PATH
+CMD ["bin/run.sh"]
+
+
+
+
