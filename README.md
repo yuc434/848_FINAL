@@ -2,6 +2,9 @@
 General Description:
 This is a microservice-based application that would allow the users to run Apache Hadoop, Spark, Jupyter Notebooks, SonarQube and SonarScanner without having to install any of them. 
 
+# Video demo:
+https://youtu.be/Vd7UjzWqVYM
+
 # IPs to try the published services:
 GUI (You can access this link to see the final toolbox):
 http://35.192.176.97/
